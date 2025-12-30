@@ -18,7 +18,7 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://brainfeed-production.up.railway.app/sitemap.xml
+Sitemap: https://brainfeed-production-1fde.up.railway.app/sitemap.xml
 
 # Crawl delay (optional - adjust based on server capacity)
 Crawl-delay: 1

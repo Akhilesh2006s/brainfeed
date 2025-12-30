@@ -7,7 +7,7 @@ export async function registerSitemapRoute(app: Express): Promise<void> {
       const articles = await storage.getArticles();
       const categories = await storage.getCategories();
 
-      const baseUrl = process.env.BASE_URL || process.env.NEXT_PUBLIC_BASE_URL || "https://brainfeed-production.up.railway.app";
+      const baseUrl = process.env.BASE_URL || process.env.NEXT_PUBLIC_BASE_URL || "https://brainfeed-production-1fde.up.railway.app";
       const now = new Date().toISOString().split("T")[0];
 
       let xml = `<?xml version="1.0" encoding="UTF-8"?>

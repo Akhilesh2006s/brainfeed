@@ -5,7 +5,7 @@ export function getBaseUrl(): string {
     return process.env.NEXT_PUBLIC_BASE_URL || window.location.origin;
   }
   // Server-side: use BASE_URL, NEXT_PUBLIC_BASE_URL, or default to Railway URL
-  return process.env.BASE_URL || process.env.NEXT_PUBLIC_BASE_URL || 'https://brainfeed-production.up.railway.app';
+  return process.env.BASE_URL || process.env.NEXT_PUBLIC_BASE_URL || 'https://brainfeed-production-1fde.up.railway.app';
 }
 
 // Helper to build full URL from path
