@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { db } from "@/app/lib/db";
+import { db } from "@/lib/db";
 import { users } from "@shared/schema";
 import { eq } from "drizzle-orm";
 import bcrypt from "bcryptjs";
-import { createSession } from "@/app/lib/session";
+import { createSession } from "@/lib/session";
 import { cookies } from "next/headers";
 
 export async function POST(request: NextRequest) {

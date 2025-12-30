@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { storage } from "@/app/lib/storage";
-import { getSession } from "@/app/lib/session";
+import { storage } from "@/lib/storage";
+import { getSession } from "@/lib/session";
 
 export async function GET(request: NextRequest) {
   try {
