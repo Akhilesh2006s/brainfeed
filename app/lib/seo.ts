@@ -30,7 +30,7 @@ export function setSEO(title: string, description: string, image?: string, url?:
   metaDescription.setAttribute('content', description);
 
   // Use provided URL or construct from baseUrl and current path
-  const fullUrl = url || (typeof window !== 'undefined' ? window.location.href : baseUrl);
+  const fullUrl = url || (typeof window !== 'undefined' ? window.location.href : getBaseUrl());
 
   // Open Graph tags
   const tags = [
