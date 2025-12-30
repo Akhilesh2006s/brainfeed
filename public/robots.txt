@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /article/
+Allow: /category/
+Allow: /chat
+Allow: /search
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /server/
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://brainfeed-production.up.railway.app/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1

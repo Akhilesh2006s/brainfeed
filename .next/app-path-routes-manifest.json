@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/dashboard/page": "/admin/dashboard",
+  "/article/[slug]/page": "/article/[slug]",
+  "/category/[slug]/page": "/category/[slug]",
+  "/chat/page": "/chat",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
+  "/login/page": "/login",
+  "/page": "/",
+  "/search/page": "/search",
+  "/writer/dashboard/page": "/writer/dashboard"
+}
